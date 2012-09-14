@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ED240521602BEA500285FA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED240511602BEA500285FA0 /* UIKit.framework */; };
+		8ED240541602BEA500285FA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED240531602BEA500285FA0 /* Foundation.framework */; };
+		8ED240561602BEA500285FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED240551602BEA500285FA0 /* CoreGraphics.framework */; };
+		8ED2405C1602BEA500285FA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ED2405A1602BEA500285FA0 /* InfoPlist.strings */; };
+		8ED2405E1602BEA500285FA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2405D1602BEA500285FA0 /* main.m */; };
+		8ED240621602BEA500285FA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240611602BEA500285FA0 /* AppDelegate.m */; };
+		8ED240651602BEA500285FA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240641602BEA500285FA0 /* ViewController.m */; };
+		8ED240681602BEA500285FA0 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED240661602BEA500285FA0 /* ViewController_iPhone.xib */; };
+		8ED2406B1602BEA500285FA0 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED240691602BEA500285FA0 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ED2404D1602BEA500285FA0 /* Grow Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grow Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED240511602BEA500285FA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ED240531602BEA500285FA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ED240551602BEA500285FA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ED240591602BEA500285FA0 /* Grow Radio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grow Radio-Info.plist"; sourceTree = "<group>"; };
+		8ED2405B1602BEA500285FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ED2405D1602BEA500285FA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ED2405F1602BEA500285FA0 /* Grow Radio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grow Radio-Prefix.pch"; sourceTree = "<group>"; };
+		8ED240601602BEA500285FA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ED240611602BEA500285FA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ED240631602BEA500285FA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8ED240641602BEA500285FA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8ED240671602BEA500285FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		8ED2406A1602BEA500285FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED2404A1602BEA400285FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED240521602BEA500285FA0 /* UIKit.framework in Frameworks */,
+				8ED240541602BEA500285FA0 /* Foundation.framework in Frameworks */,
+				8ED240561602BEA500285FA0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED240421602BEA400285FA0 = {
+			isa = PBXGroup;
+			children = (
+				8ED240571602BEA500285FA0 /* Grow Radio */,
+				8ED240501602BEA500285FA0 /* Frameworks */,
+				8ED2404E1602BEA500285FA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED2404E1602BEA500285FA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED2404D1602BEA500285FA0 /* Grow Radio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED240501602BEA500285FA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ED240511602BEA500285FA0 /* UIKit.framework */,
+				8ED240531602BEA500285FA0 /* Foundation.framework */,
+				8ED240551602BEA500285FA0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED240571602BEA500285FA0 /* Grow Radio */ = {
+			isa = PBXGroup;
+			children = (
+				8ED240601602BEA500285FA0 /* AppDelegate.h */,
+				8ED240611602BEA500285FA0 /* AppDelegate.m */,
+				8ED240631602BEA500285FA0 /* ViewController.h */,
+				8ED240641602BEA500285FA0 /* ViewController.m */,
+				8ED240661602BEA500285FA0 /* ViewController_iPhone.xib */,
+				8ED240691602BEA500285FA0 /* ViewController_iPad.xib */,
+				8ED240581602BEA500285FA0 /* Supporting Files */,
+			);
+			path = "Grow Radio";
+			sourceTree = "<group>";
+		};
+		8ED240581602BEA500285FA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED240591602BEA500285FA0 /* Grow Radio-Info.plist */,
+				8ED2405A1602BEA500285FA0 /* InfoPlist.strings */,
+				8ED2405D1602BEA500285FA0 /* main.m */,
+				8ED2405F1602BEA500285FA0 /* Grow Radio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED2404C1602BEA400285FA0 /* Grow Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED2406E1602BEA500285FA0 /* Build configuration list for PBXNativeTarget "Grow Radio" */;
+			buildPhases = (
+				8ED240491602BEA400285FA0 /* Sources */,
+				8ED2404A1602BEA400285FA0 /* Frameworks */,
+				8ED2404B1602BEA400285FA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grow Radio";
+			productName = "Grow Radio";
+			productReference = 8ED2404D1602BEA500285FA0 /* Grow Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED240441602BEA400285FA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Assorted Intelligence";
+			};
+			buildConfigurationList = 8ED240471602BEA400285FA0 /* Build configuration list for PBXProject "Grow Radio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8ED240421602BEA400285FA0;
+			productRefGroup = 8ED2404E1602BEA500285FA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED2404C1602BEA400285FA0 /* Grow Radio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED2404B1602BEA400285FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED2405C1602BEA500285FA0 /* InfoPlist.strings in Resources */,
+				8ED240681602BEA500285FA0 /* ViewController_iPhone.xib in Resources */,
+				8ED2406B1602BEA500285FA0 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED240491602BEA400285FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED2405E1602BEA500285FA0 /* main.m in Sources */,
+				8ED240621602BEA500285FA0 /* AppDelegate.m in Sources */,
+				8ED240651602BEA500285FA0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ED2405A1602BEA500285FA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED2405B1602BEA500285FA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8ED240661602BEA500285FA0 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED240671602BEA500285FA0 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8ED240691602BEA500285FA0 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED2406A1602BEA500285FA0 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED2406C1602BEA500285FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ED2406D1602BEA500285FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED2406F1602BEA500285FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grow Radio/Grow Radio-Prefix.pch";
+				INFOPLIST_FILE = "Grow Radio/Grow Radio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ED240701602BEA500285FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grow Radio/Grow Radio-Prefix.pch";
+				INFOPLIST_FILE = "Grow Radio/Grow Radio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED240471602BEA400285FA0 /* Build configuration list for PBXProject "Grow Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED2406C1602BEA500285FA0 /* Debug */,
+				8ED2406D1602BEA500285FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED2406E1602BEA500285FA0 /* Build configuration list for PBXNativeTarget "Grow Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED2406F1602BEA500285FA0 /* Debug */,
+				8ED240701602BEA500285FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED240441602BEA400285FA0 /* Project object */;
+}
