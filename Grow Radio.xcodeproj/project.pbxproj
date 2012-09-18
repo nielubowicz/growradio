@@ -16,6 +16,15 @@
 		8ED240651602BEA500285FA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240641602BEA500285FA0 /* ViewController.m */; };
 		8ED240681602BEA500285FA0 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED240661602BEA500285FA0 /* ViewController_iPhone.xib */; };
 		8ED2406B1602BEA500285FA0 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED240691602BEA500285FA0 /* ViewController_iPad.xib */; };
+		8ED2408A1602BF8D00285FA0 /* GSAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240751602BF8D00285FA0 /* GSAudioPlayer.m */; };
+		8ED2408C1602BF8D00285FA0 /* GSStreamSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240791602BF8D00285FA0 /* GSStreamSource.m */; };
+		8ED240901602BF8D00285FA0 /* GSAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240831602BF8D00285FA0 /* GSAudioStream.m */; };
+		8ED240911602BF8D00285FA0 /* GSDataAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240851602BF8D00285FA0 /* GSDataAudioStream.m */; };
+		8ED240921602BF8D00285FA0 /* GSHTTPAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240871602BF8D00285FA0 /* GSHTTPAudioStream.m */; };
+		8ED240931602BF8D00285FA0 /* GSLocalAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED240891602BF8D00285FA0 /* GSLocalAudioStream.m */; };
+		8ED240971602C08200285FA0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED240961602C08200285FA0 /* CFNetwork.framework */; };
+		8ED240991602C0A700285FA0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED240981602C0A700285FA0 /* AudioToolbox.framework */; };
+		8ED2409B16042A2B00285FA0 /* libSystem.B.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED2409A16042A2B00285FA0 /* libSystem.B.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +42,23 @@
 		8ED240641602BEA500285FA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8ED240671602BEA500285FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		8ED2406A1602BEA500285FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		8ED240721602BF8D00285FA0 /* AudioDataFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDataFilter.h; sourceTree = "<group>"; };
+		8ED240731602BF8D00285FA0 /* GSAudioErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAudioErrors.h; sourceTree = "<group>"; };
+		8ED240741602BF8D00285FA0 /* GSAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAudioPlayer.h; sourceTree = "<group>"; };
+		8ED240751602BF8D00285FA0 /* GSAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAudioPlayer.m; sourceTree = "<group>"; };
+		8ED240781602BF8D00285FA0 /* GSStreamSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSStreamSource.h; sourceTree = "<group>"; };
+		8ED240791602BF8D00285FA0 /* GSStreamSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSStreamSource.m; sourceTree = "<group>"; };
+		8ED240821602BF8D00285FA0 /* GSAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAudioStream.h; sourceTree = "<group>"; };
+		8ED240831602BF8D00285FA0 /* GSAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAudioStream.m; sourceTree = "<group>"; };
+		8ED240841602BF8D00285FA0 /* GSDataAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDataAudioStream.h; sourceTree = "<group>"; };
+		8ED240851602BF8D00285FA0 /* GSDataAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDataAudioStream.m; sourceTree = "<group>"; };
+		8ED240861602BF8D00285FA0 /* GSHTTPAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHTTPAudioStream.h; sourceTree = "<group>"; };
+		8ED240871602BF8D00285FA0 /* GSHTTPAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHTTPAudioStream.m; sourceTree = "<group>"; };
+		8ED240881602BF8D00285FA0 /* GSLocalAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLocalAudioStream.h; sourceTree = "<group>"; };
+		8ED240891602BF8D00285FA0 /* GSLocalAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLocalAudioStream.m; sourceTree = "<group>"; };
+		8ED240961602C08200285FA0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8ED240981602C0A700285FA0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8ED2409A16042A2B00285FA0 /* libSystem.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.B.dylib; path = usr/lib/libSystem.B.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED2409B16042A2B00285FA0 /* libSystem.B.dylib in Frameworks */,
+				8ED240991602C0A700285FA0 /* AudioToolbox.framework in Frameworks */,
+				8ED240971602C08200285FA0 /* CFNetwork.framework in Frameworks */,
 				8ED240521602BEA500285FA0 /* UIKit.framework in Frameworks */,
 				8ED240541602BEA500285FA0 /* Foundation.framework in Frameworks */,
 				8ED240561602BEA500285FA0 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +81,9 @@
 		8ED240421602BEA400285FA0 = {
 			isa = PBXGroup;
 			children = (
+				8ED2409A16042A2B00285FA0 /* libSystem.B.dylib */,
+				8ED240981602C0A700285FA0 /* AudioToolbox.framework */,
+				8ED240961602C08200285FA0 /* CFNetwork.framework */,
 				8ED240571602BEA500285FA0 /* Grow Radio */,
 				8ED240501602BEA500285FA0 /* Frameworks */,
 				8ED2404E1602BEA500285FA0 /* Products */,
@@ -79,6 +111,7 @@
 		8ED240571602BEA500285FA0 /* Grow Radio */ = {
 			isa = PBXGroup;
 			children = (
+				8ED240711602BF8D00285FA0 /* playback */,
 				8ED240601602BEA500285FA0 /* AppDelegate.h */,
 				8ED240611602BEA500285FA0 /* AppDelegate.m */,
 				8ED240631602BEA500285FA0 /* ViewController.h */,
@@ -99,6 +132,35 @@
 				8ED2405F1602BEA500285FA0 /* Grow Radio-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ED240711602BF8D00285FA0 /* playback */ = {
+			isa = PBXGroup;
+			children = (
+				8ED240721602BF8D00285FA0 /* AudioDataFilter.h */,
+				8ED240731602BF8D00285FA0 /* GSAudioErrors.h */,
+				8ED240741602BF8D00285FA0 /* GSAudioPlayer.h */,
+				8ED240751602BF8D00285FA0 /* GSAudioPlayer.m */,
+				8ED240781602BF8D00285FA0 /* GSStreamSource.h */,
+				8ED240791602BF8D00285FA0 /* GSStreamSource.m */,
+				8ED240811602BF8D00285FA0 /* streams */,
+			);
+			path = playback;
+			sourceTree = "<group>";
+		};
+		8ED240811602BF8D00285FA0 /* streams */ = {
+			isa = PBXGroup;
+			children = (
+				8ED240821602BF8D00285FA0 /* GSAudioStream.h */,
+				8ED240831602BF8D00285FA0 /* GSAudioStream.m */,
+				8ED240841602BF8D00285FA0 /* GSDataAudioStream.h */,
+				8ED240851602BF8D00285FA0 /* GSDataAudioStream.m */,
+				8ED240861602BF8D00285FA0 /* GSHTTPAudioStream.h */,
+				8ED240871602BF8D00285FA0 /* GSHTTPAudioStream.m */,
+				8ED240881602BF8D00285FA0 /* GSLocalAudioStream.h */,
+				8ED240891602BF8D00285FA0 /* GSLocalAudioStream.m */,
+			);
+			path = streams;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +230,12 @@
 				8ED2405E1602BEA500285FA0 /* main.m in Sources */,
 				8ED240621602BEA500285FA0 /* AppDelegate.m in Sources */,
 				8ED240651602BEA500285FA0 /* ViewController.m in Sources */,
+				8ED2408A1602BF8D00285FA0 /* GSAudioPlayer.m in Sources */,
+				8ED2408C1602BF8D00285FA0 /* GSStreamSource.m in Sources */,
+				8ED240901602BF8D00285FA0 /* GSAudioStream.m in Sources */,
+				8ED240911602BF8D00285FA0 /* GSDataAudioStream.m in Sources */,
+				8ED240921602BF8D00285FA0 /* GSHTTPAudioStream.m in Sources */,
+				8ED240931602BF8D00285FA0 /* GSLocalAudioStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +290,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -242,7 +310,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
